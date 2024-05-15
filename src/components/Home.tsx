@@ -6,10 +6,10 @@ import focus from "../assets/images/study.jpg";
 
 const Home = () => {
   return (
-    <div>
-        <h1>Your flow starts here</h1>
+    <div className='text-center'>
+        <h1 className="text-4xl	text-white pt-20">Your flow starts here</h1>
         {/* <Category_card name="Sleep" /> */}
-        <div className='flex gap-6'>
+        <div className='flex gap-6 justify-center mt-10'>
             <Category_card name="sleep" image={sleep} />
             <Category_card name="Focus" image={focus} />
             <Category_card name="Meditate" image={meditate} />
@@ -18,4 +18,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
